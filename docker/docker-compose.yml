@@ -15,7 +15,7 @@ services:
       options:
         max-size: 50m
     ports:
-      - "8890:8888"
+      - "8890:8890"
       - "6006:6006"
     volumes:
       - ../:/home/devel/handson-ml3
