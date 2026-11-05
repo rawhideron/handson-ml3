@@ -47,7 +47,7 @@ $ cd /path/to/project/handson-ml3/docker
 $ docker-compose up
 ```
 
-Next, just point your browser to the URL printed on the screen (or go to <http://localhost:8888> if you enabled password authentication inside the `jupyter_notebook_config.py` file, before building the image) and you're ready to play with the book's code!
+Next, just point your browser to the URL printed on the screen (or go to <http://localhost:8890> if you enabled password authentication inside the `jupyter_notebook_config.py` file, before building the image) and you're ready to play with the book's code!
 
 The server runs in the directory containing the notebooks, and the changes you make from the browser will be persisted there.
 
@@ -112,7 +112,7 @@ If you have `docker-compose` version 1.28 or above, that's great! You can simply
 $ cd /path/to/project/handson-ml3/docker
 $ docker-compose up
 [...]
-     or http://127.0.0.1:8888/?token=[...]
+     or http://127.0.0.1:8890/?token=[...]
 ```
 
 Then point your browser to the URL and Jupyter should appear. If you then open or create a notebook and execute the following code, a list containing your GPU device(s) should be displayed (success!):
